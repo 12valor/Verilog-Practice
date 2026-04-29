@@ -2,18 +2,19 @@
 // AG Evangelista - Student
 // FULL SUBTRACTOR
 
-module FULLSUBTRACTOR(D, Bout, Bin, A, B);
-	input A, B, Bin;
-	output D, Bout;
+module FULLSUBTRACTOR(d, bout, bin, a, b);
+	input a, b, bin;
+	output d, bout;
 	
-	wire w1, w2, w3, w4, w5, w6;
+	wire w1, w2, w3;
+	wire not_a, not_b;
 	
-	xor u1(w1, B, Bin);
-	not u2(w2, B);
-	and u3(w3, w2, Bin);
-	not u4(w4, w1);
-	and u5(w5, w4, A);
-	xor u6(w6, w1, A);
-	or u7(Bout, w5, w3);
-
+	xor u1(w1, a, b);
+	not u6(not_a, a);
+	and u2(w2, not_a, b);
+	not u7(not_b, w1);
+	and u3(w3, bin, not_b);
+	xor u4(d, w1, bin);
+	or u5(bout, w3, w2);
+	
 endmodule

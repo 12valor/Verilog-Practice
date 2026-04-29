@@ -4,19 +4,23 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "Bout",
+					"name" : "d",
 					"strict" : false
 				},
 				{
-					"name" : "Bin",
+					"name" : "bout",
 					"strict" : false
 				},
 				{
-					"name" : "A",
+					"name" : "a",
 					"strict" : false
 				},
 				{
-					"name" : "B",
+					"name" : "b",
+					"strict" : false
+				},
+				{
+					"name" : "bin",
 					"strict" : false
 				}
 			]

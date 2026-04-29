@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Wed Apr 29 21:25:37 2026
+Analysis & Synthesis Status : Successful - Wed Apr 29 22:46:36 2026
 Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 Revision Name : FULLSUBTRACTOR
 Top-level Entity Name : FULLSUBTRACTOR
 Family : Cyclone IV E
-Total logic elements : 1
-    Total combinational functions : 1
+Total logic elements : 2
+    Total combinational functions : 2
     Dedicated logic registers : 0
 Total registers : 0
 Total pins : 5
