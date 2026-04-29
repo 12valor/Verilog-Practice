@@ -9,29 +9,52 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/evang/Downloads/FPGA_demo/T09/demo2_fa
-vFULLSUBTRACTOR
-Z0 !s110 1777474108
+vfs_df
+Z0 !s110 1777477598
 !i10b 1
-!s100 5=R2dcb4`m4XS;^lX315]0
+!s100 _CamYaZj<00KAI61gEG]B2
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IhKlziV>3dkLzLei5]ih`V2
+IFX:^@N2VAYbk0?]SAIX301
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 dC:/Users/evang/Downloads/FPGA_demo/T09/prac_fs
+w1777475699
+8C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/fs_df.v
+FC:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/fs_df.v
+!i122 18
+L0 3 8
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1777477598.000000
+!s107 C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/fs_df.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/fs_df.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vFULLSUBTRACTOR
+!s110 1777474108
+!i10b 1
+!s100 5=R2dcb4`m4XS;^lX315]0
+R1
+IhKlziV>3dkLzLei5]ih`V2
+R2
+R3
 w1777473979
 8C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/FULLSUBTRACTOR.v
 FC:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/FULLSUBTRACTOR.v
 !i122 14
 L0 5 16
-Z4 OV;L;2020.1;71
+R4
 r1
 !s85 0
 31
-Z5 !s108 1777474108.000000
+!s108 1777474108.000000
 !s107 C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/FULLSUBTRACTOR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/FULLSUBTRACTOR.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+R6
+R7
 n@f@u@l@l@s@u@b@t@r@a@c@t@o@r
 vtestbench
 R0
@@ -44,7 +67,7 @@ R3
 w1777471335
 8C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/testbench.v
 FC:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/testbench.v
-!i122 15
+!i122 19
 L0 6 32
 R4
 r1
