@@ -1,2 +1,1 @@
-# PRAC_FS
-
+# repo for verilog practice circuits
