@@ -1,5 +1,5 @@
 Timing Analyzer report for FULLSUBTRACTOR
-Wed Apr 29 23:44:35 2026
+Thu Apr 30 00:35:50 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -91,7 +91,7 @@ on the Quartus Prime software download page.
 ; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 10          ;
 ;                            ;             ;
-; Average used               ; 1.03        ;
+; Average used               ; 1.02        ;
 ; Maximum used               ; 10          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
@@ -384,7 +384,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Wed Apr 29 23:44:34 2026
+    Info: Processing started: Thu Apr 30 00:35:49 2026
 Info: Command: quartus_sta FULLSUBTRACTOR -c FULLSUBTRACTOR
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -432,8 +432,8 @@ Info (332140): No Minimum Pulse Width paths to report
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4923 megabytes
-    Info: Processing ended: Wed Apr 29 23:44:35 2026
+    Info: Peak virtual memory: 4931 megabytes
+    Info: Processing ended: Thu Apr 30 00:35:50 2026
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

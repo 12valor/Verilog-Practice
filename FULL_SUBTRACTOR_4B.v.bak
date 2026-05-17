@@ -1,0 +1,14 @@
+module HALF_SUBTRACTOR(a,b,diff,borrow);
+	input a,b;
+	output diff, borrow;
+
+	always @(a,b) begin
+		case({a,b})
+			2'b00: {diff, borrow} = 2'b00;
+			2'b01: {diff, borrow} = 2'b11;
+			2'b10: {diff, borrow} = 2'b10;
+			2'b11: {diff, borrow} = 2'b00;
+			default: {diff, borrow} = 2'b00;
+		endcase
+	end
+endmodule
