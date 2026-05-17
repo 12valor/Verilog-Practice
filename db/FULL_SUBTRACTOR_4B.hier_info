@@ -1,0 +1,47 @@
+|FULL_SUBTRACTOR_4B
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+d[0] << HALF_SUBTRACTOR:hs.diff
+d[1] << FULL_SUBTRACTOR:fs.diff
+d[2] << FULL_SUBTRACTOR:fs2.diff
+d[3] << FULL_SUBTRACTOR:fs3.diff
+d[4] << FULL_SUBTRACTOR:fs3.bout
+
+
+|FULL_SUBTRACTOR_4B|HALF_SUBTRACTOR:hs
+a => Decoder0.IN0
+b => Decoder0.IN1
+diff <= diff.DB_MAX_OUTPUT_PORT_TYPE
+borrow <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FULL_SUBTRACTOR_4B|FULL_SUBTRACTOR:fs
+a => Decoder0.IN0
+b => Decoder0.IN1
+bin => Decoder0.IN2
+diff <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+bout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FULL_SUBTRACTOR_4B|FULL_SUBTRACTOR:fs2
+a => Decoder0.IN0
+b => Decoder0.IN1
+bin => Decoder0.IN2
+diff <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+bout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FULL_SUBTRACTOR_4B|FULL_SUBTRACTOR:fs3
+a => Decoder0.IN0
+b => Decoder0.IN1
+bin => Decoder0.IN2
+diff <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+bout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
