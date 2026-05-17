@@ -2,7 +2,7 @@ module tb_full_subtractor_4b;
     reg [3:0] a, b;
     wire [4:0] d;
 
-    full_subtractor_4b dut(
+    FULL_SUBTRACTOR_4B dut(
         .a(a),
         .b(b),
         .d(d)
